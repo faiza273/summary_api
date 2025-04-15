@@ -1,0 +1,9 @@
+# Ignore virtual environment
+venv/
+
+# Ignore Python caches
+__pycache__/
+*.pyc
+
+# Ignore large model file that will be downloaded at deploy time
+t5_summary_model/model.safetensors
